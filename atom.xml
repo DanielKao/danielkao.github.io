@@ -4,7 +4,7 @@
   <title><![CDATA[Daniel Kao的胡言亂語]]></title>
   <link href="http://DanielKao.github.io/atom.xml" rel="self"/>
   <link href="http://DanielKao.github.io/"/>
-  <updated>2013-12-24T16:25:36+08:00</updated>
+  <updated>2013-12-24T17:00:10+08:00</updated>
   <id>http://DanielKao.github.io/</id>
   <author>
     <name><![CDATA[Daniel Kao]]></name>
@@ -12,14 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[FacebookSDK小記]]></title>
-    <link href="http://DanielKao.github.io/blog/2013/12/24/facebooksdkxiao-ji/"/>
-    <updated>2013-12-24T16:11:32+08:00</updated>
-    <id>http://DanielKao.github.io/blog/2013/12/24/facebooksdkxiao-ji</id>
-    <content type="html"><![CDATA[<h1>測試一下</h1>
-]]></content>
-  </entry>
   
 </feed>
