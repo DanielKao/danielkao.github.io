@@ -4,7 +4,7 @@
   <title><![CDATA[Daniel Kao的胡言亂語]]></title>
   <link href="http://DanielKao.github.io/atom.xml" rel="self"/>
   <link href="http://DanielKao.github.io/"/>
-  <updated>2013-12-24T17:30:55+08:00</updated>
+  <updated>2013-12-25T13:58:23+08:00</updated>
   <id>http://DanielKao.github.io/</id>
   <author>
     <name><![CDATA[Daniel Kao]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Test]]></title>
+    <title type="html"><![CDATA[123]]></title>
     <link href="http://DanielKao.github.io/blog/2013/12/24/test/"/>
     <updated>2013-12-24T17:09:07+08:00</updated>
     <id>http://DanielKao.github.io/blog/2013/12/24/test</id>
@@ -25,6 +25,8 @@
 <p>Added the second line</p>
 
 <p>Added the third line 2013/12/24 17:26</p>
+
+<p>Change Title 13:58</p>
 ]]></content>
   </entry>
   
