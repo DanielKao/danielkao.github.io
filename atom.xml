@@ -4,7 +4,7 @@
   <title><![CDATA[Daniel Kao的胡言亂語]]></title>
   <link href="http://DanielKao.github.io/atom.xml" rel="self"/>
   <link href="http://DanielKao.github.io/"/>
-  <updated>2013-12-25T14:03:50+08:00</updated>
+  <updated>2013-12-25T14:48:49+08:00</updated>
   <id>http://DanielKao.github.io/</id>
   <author>
     <name><![CDATA[Daniel Kao]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Graph API 小記]]></title>
+    <link href="http://DanielKao.github.io/blog/2013/12/25/graph-api/"/>
+    <updated>2013-12-25T14:11:31+08:00</updated>
+    <id>http://DanielKao.github.io/blog/2013/12/25/graph-api</id>
+    <content type="html"><![CDATA[<h2>Graph API</h2>
+
+<ol>
+<li>Most Graph API requests will require access token
+
+<ul>
+<li>Generate it by implementing Facebook Login</li>
+</ul>
+</li>
+<li>APIs are composed of nodes, edges, fields
+
+<ul>
+<li>nodes, such as a User, a Photo, a Page, a Comment</li>
+<li>edges, such as a Pages&#8217; Photos, Photo&rsquo;s comments</li>
+<li>fields, such as the birthday of a User, or the name of        a page</li>
+</ul>
+</li>
+</ol>
+
+
+<hr />
+
+<pre><code>Get  graph.facebook.com/{node-id} 
+
+Get  graph.facebook.com/{node-id}/{edge-name} 
+
+Post graph.facebook.com/{node-id} 
+
+Post graph.facebook.com/{node-id}/{edge-name} 
+</code></pre>
+
+<h2>粉絲頁</h2>
+
+<p><code>https://graph.facebook.com/{page-id}</code></p>
+
+<ol>
+<li>讀取粉絲團介紹
+
+<ul>
+<li><a href="https://graph.facebook.com/XboxOneTaiwanFans">https://graph.facebook.com/XboxOneTaiwanFans</a></li>
+</ul>
+</li>
+<li>讀取粉絲團塗鴉牆
+
+<ul>
+<li><a href="https://graph.facebook.com/XboxOneTaiwanFans/feed">https://graph.facebook.com/XboxOneTaiwanFans/feed</a></li>
+<li>Default: 25筆</li>
+<li>Paging:
+&ldquo;paging&rdquo;: {
+&ldquo;previous&rdquo;: &ldquo;<a href="https://graph.facebook.com/me/feed?limit=25&amp;since=1364849754">https://graph.facebook.com/me/feed?limit=25&amp;since=1364849754</a>&rdquo;,
+&ldquo;next&rdquo;: &ldquo;<a href="https://graph.facebook.com/me/feed?limit=25&amp;until=1364587774">https://graph.facebook.com/me/feed?limit=25&amp;until=1364587774</a>&rdquo;}</li>
+</ul>
+</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[1234567]]></title>

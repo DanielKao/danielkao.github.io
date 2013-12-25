@@ -9,8 +9,7 @@
   <meta name="author" content="Daniel Kao">
 
   
-  <meta name="description" content="Test Just a test page Added the second line Added the third line 2013/12/24 17:26 Change Title 13:58 YO
-">
+  <meta name="description" content="Graph API Most Graph API requests will require access token Generate it by implementing Facebook Login APIs are composed of nodes, edges, fields &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +71,96 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2013/12/25/graph-api/">Graph API 小記</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-25T14:11:31+08:00" pubdate data-updated="true">Dec 25<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>Graph API</h2>
+
+<ol>
+<li>Most Graph API requests will require access token
+
+<ul>
+<li>Generate it by implementing Facebook Login</li>
+</ul>
+</li>
+<li>APIs are composed of nodes, edges, fields
+
+<ul>
+<li>nodes, such as a User, a Photo, a Page, a Comment</li>
+<li>edges, such as a Pages&#8217; Photos, Photo&rsquo;s comments</li>
+<li>fields, such as the birthday of a User, or the name of        a page</li>
+</ul>
+</li>
+</ol>
+
+
+<hr />
+
+<pre><code>Get  graph.facebook.com/{node-id} 
+
+Get  graph.facebook.com/{node-id}/{edge-name} 
+
+Post graph.facebook.com/{node-id} 
+
+Post graph.facebook.com/{node-id}/{edge-name} 
+</code></pre>
+
+<h2>粉絲頁</h2>
+
+<p><code>https://graph.facebook.com/{page-id}</code></p>
+
+<ol>
+<li>讀取粉絲團介紹
+
+<ul>
+<li><a href="https://graph.facebook.com/XboxOneTaiwanFans">https://graph.facebook.com/XboxOneTaiwanFans</a></li>
+</ul>
+</li>
+<li>讀取粉絲團塗鴉牆
+
+<ul>
+<li><a href="https://graph.facebook.com/XboxOneTaiwanFans/feed">https://graph.facebook.com/XboxOneTaiwanFans/feed</a></li>
+<li>Default: 25筆</li>
+<li>Paging:
+&ldquo;paging&rdquo;: {
+&ldquo;previous&rdquo;: &ldquo;<a href="https://graph.facebook.com/me/feed?limit=25&amp;since=1364849754">https://graph.facebook.com/me/feed?limit=25&amp;since=1364849754</a>&rdquo;,
+&ldquo;next&rdquo;: &ldquo;<a href="https://graph.facebook.com/me/feed?limit=25&amp;until=1364587774">https://graph.facebook.com/me/feed?limit=25&amp;until=1364587774</a>&rdquo;}</li>
+</ul>
+</li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2013/12/24/test/">1234567</a></h1>
     
     
@@ -124,6 +213,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/12/25/graph-api/">Graph API 小記</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/12/24/test/">1234567</a>
