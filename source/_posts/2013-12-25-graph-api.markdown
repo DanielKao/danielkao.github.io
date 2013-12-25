@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Graph API 小記"
+date: 2013-12-25 14:11:31 +0800
+comments: true
+categories: 
+---
+
+## Graph API
+
+1. Most Graph API requests will require access token
+	* Generate it by implementing Facebook Login
+2. APIs are composed of nodes, edges, fields
+	* nodes, such as a User, a Photo, a Page, a Comment
+	* edges, such as a Pages' Photos, Photo's comments
+	* fields, such as the birthday of a User, or the name of 		a page 
+--- 
+	Get  graph.facebook.com/{node-id} 
+	
+	Get  graph.facebook.com/{node-id}/{edge-name} 
+	
+	Post graph.facebook.com/{node-id} 
+	
+	Post graph.facebook.com/{node-id}/{edge-name} 
+
+## 粉絲頁  
+
+`https://graph.facebook.com/{page-id}` 
+
+
+1. 讀取粉絲團介紹
+	* https://graph.facebook.com/XboxOneTaiwanFans
+2. 讀取粉絲團塗鴉牆
+	* https://graph.facebook.com/XboxOneTaiwanFans/feed
+	* Default: 25筆
+	* Paging:
+	"paging": {
+    "previous": "https://graph.facebook.com/me/feed?limit=25&since=1364849754",
+    "next": "https://graph.facebook.com/me/feed?limit=25&until=1364587774"}
+  
+   
+	
