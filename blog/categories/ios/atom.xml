@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: iOS | Daniel Kao的胡言亂語]]></title>
+  <link href="http://DanielKao.github.io/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://DanielKao.github.io/"/>
+  <updated>2013-12-31T17:18:34+08:00</updated>
+  <id>http://DanielKao.github.io/</id>
+  <author>
+    <name><![CDATA[Daniel Kao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Conversion of Date to String and Time Zone]]></title>
+    <link href="http://DanielKao.github.io/blog/2013/12/31/conversion-of-date-to-string-and-time-zone/"/>
+    <updated>2013-12-31T17:07:05+08:00</updated>
+    <id>http://DanielKao.github.io/blog/2013/12/31/conversion-of-date-to-string-and-time-zone</id>
+    <content type="html"><![CDATA[<p>今天要做個簡單個功能，將拿到的Date String轉換為當地時區。明明以前就做過了，但一直找不到過去的筆記..趁機會重寫一次。</p>
+
+<p>將 <code>2013-12-31T02:40:34+0000</code> 轉換為當地格式並顯示為 <code>2013/12/31 10:40:34</code> 作法如下：</p>
+
+<pre><code>NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+formatter.timeZone = [NSTimeZone systemTimeZone];
+formatter.dateFormat = @"yyyy-MM-dd'T'HH:mm:ssZ";
+NSDate *utcDate = [formatter dateFromString:@"2013-12-31T02:40:34+0000"];
+
+[formatter setDateFormat:@"yyyy/MM/dd HH:mm:ss"];
+NSString *localDateString = [formatter stringFromDate:utcDate];
+</code></pre>
+
+<p>以上，簡單做個記錄。</p>
+]]></content>
+  </entry>
+  
+</feed>
