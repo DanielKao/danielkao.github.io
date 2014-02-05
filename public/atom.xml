@@ -4,7 +4,7 @@
   <title><![CDATA[Daniel Kao的胡言亂語]]></title>
   <link href="http://DanielKao.github.io/atom.xml" rel="self"/>
   <link href="http://DanielKao.github.io/"/>
-  <updated>2013-12-31T17:18:34+08:00</updated>
+  <updated>2014-02-05T12:44:06+08:00</updated>
   <id>http://DanielKao.github.io/</id>
   <author>
     <name><![CDATA[Daniel Kao]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Merge_a_single_file_to_another_branchs_corresponding_file]]></title>
+    <link href="http://DanielKao.github.io/blog/2014/01/22/merge-a-single-file-to-another-branchs-corresponding-file/"/>
+    <updated>2014-01-22T11:03:26+08:00</updated>
+    <id>http://DanielKao.github.io/blog/2014/01/22/merge-a-single-file-to-another-branchs-corresponding-file</id>
+    <content type="html"><![CDATA[<h2>如何將某個Branch的特定檔案merge到另外一個Branch的同一個檔案？</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git checkout A
+</span><span class='line'>git checkout --patch B f</span></code></pre></td></tr></table></div></figure>
+
+
+<p>其中, B不一定要是<strong>branch</strong>, 也可以是<strong>commit</strong>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Conversion of Date to String and Time Zone]]></title>

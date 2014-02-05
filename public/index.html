@@ -9,7 +9,11 @@
   <meta name="author" content="Daniel Kao">
 
   
-  <meta name="description" content="今天要做個簡單個功能，將拿到的Date String轉換為當地時區。明明以前就做過了，但一直找不到過去的筆記..趁機會重寫一次。 將 2013-12-31T02:40:34+0000 轉換為當地格式並顯示為 2013/12/31 10:40:34 作法如下： NSDateFormatter * &hellip;">
+  <meta name="description" content="如何將某個Branch的特定檔案merge到另外一個Branch的同一個檔案？ 1
+2
+git checkout A
+git checkout --patch B f 其中, B不一定要是branch, 也可以是commit.
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +69,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/22/merge-a-single-file-to-another-branchs-corresponding-file/">Merge_a_single_file_to_another_branchs_corresponding_file</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-22T11:03:26+08:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>如何將某個Branch的特定檔案merge到另外一個Branch的同一個檔案？</h2>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git checkout A
+</span><span class='line'>git checkout --patch B f</span></code></pre></td></tr></table></div></figure>
+
+
+<p>其中, B不一定要是<strong>branch</strong>, 也可以是<strong>commit</strong>.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -264,6 +312,10 @@ Post graph.facebook.com/{node-id}/{edge-name}
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/01/22/merge-a-single-file-to-another-branchs-corresponding-file/">Merge_a_single_file_to_another_branchs_corresponding_file</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/12/31/conversion-of-date-to-string-and-time-zone/">Conversion of Date to String and Time Zone</a>
       </li>
     
@@ -288,7 +340,7 @@ Post graph.facebook.com/{node-id}/{edge-name}
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Daniel Kao -
+  Copyright &copy; 2014 - Daniel Kao -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
