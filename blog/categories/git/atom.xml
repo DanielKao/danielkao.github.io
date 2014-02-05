@@ -4,7 +4,7 @@
   <title><![CDATA[Category: GIT | Daniel Kao的胡言亂語]]></title>
   <link href="http://DanielKao.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://DanielKao.github.io/"/>
-  <updated>2014-02-05T12:44:06+08:00</updated>
+  <updated>2014-02-05T12:46:54+08:00</updated>
   <id>http://DanielKao.github.io/</id>
   <author>
     <name><![CDATA[Daniel Kao]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Merge_a_single_file_to_another_branchs_corresponding_file]]></title>
+    <title type="html"><![CDATA[將某個branch的特定檔案merge到另一個branch]]></title>
     <link href="http://DanielKao.github.io/blog/2014/01/22/merge-a-single-file-to-another-branchs-corresponding-file/"/>
     <updated>2014-01-22T11:03:26+08:00</updated>
     <id>http://DanielKao.github.io/blog/2014/01/22/merge-a-single-file-to-another-branchs-corresponding-file</id>
