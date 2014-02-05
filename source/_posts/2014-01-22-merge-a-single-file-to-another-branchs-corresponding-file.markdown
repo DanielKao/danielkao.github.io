@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "merge_a_single_file_to_another_branchs_corresponding_file"
+title: "將某個branch的特定檔案merge到另一個branch"
 date: 2014-01-22 11:03:26 +0800
 comments: true
 categories: GIT
