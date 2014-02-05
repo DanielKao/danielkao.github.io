@@ -7,6 +7,9 @@ categories: GIT
 ---
 
 ##如何將某個Branch的特定檔案merge到另外一個Branch的同一個檔案？
+
+將branch B的檔案f merge到branch A
+
 ```
 git checkout A
 git checkout --patch B f

@@ -4,7 +4,7 @@
   <title><![CDATA[Daniel Kao的胡言亂語]]></title>
   <link href="http://DanielKao.github.io/atom.xml" rel="self"/>
   <link href="http://DanielKao.github.io/"/>
-  <updated>2014-02-05T12:46:54+08:00</updated>
+  <updated>2014-02-05T12:49:50+08:00</updated>
   <id>http://DanielKao.github.io/</id>
   <author>
     <name><![CDATA[Daniel Kao]]></name>
@@ -19,6 +19,8 @@
     <updated>2014-01-22T11:03:26+08:00</updated>
     <id>http://DanielKao.github.io/blog/2014/01/22/merge-a-single-file-to-another-branchs-corresponding-file</id>
     <content type="html"><![CDATA[<h2>如何將某個Branch的特定檔案merge到另外一個Branch的同一個檔案？</h2>
+
+<p>將branch B的檔案f merge到branch A</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
